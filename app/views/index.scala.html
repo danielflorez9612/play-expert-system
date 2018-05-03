@@ -1,0 +1,26 @@
+@(question: String)
+
+@main("Welcome to Play") {
+
+        <!-- Modal Structure -->
+
+    <div class="col s12 m7">
+        <h2 class="header">Questions</h2>
+        <div class="card horizontal">
+            <div class="card-stacked">
+                <div class="card-content">
+                    <p>@question</p>
+                </div>
+                <div class="card-action">
+                    <a href="#">Yes</a>
+                    <a href="#">NO</a>
+                </div>
+            </div>
+        </div>
+    </div>
+  <div class="fixed-action-btn">
+    <a class="btn-floating btn-large red" href="@controllers.routes.ViewsController.create">
+      <i class="material-icons">+</i>
+    </a>
+  </div>
+}

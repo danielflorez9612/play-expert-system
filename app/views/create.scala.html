@@ -1,0 +1,22 @@
+@(objectForm: play.data.Form[TObject])
+@main("Create an object") {
+    <h2>Add a new Object</h2>
+    <div class="row">
+    @helper.form(action=routes.ApiController.addObject,'_class ->"col s12") {
+        <div class="row">
+            <div class="input-field col s12">
+            @helper.inputText(objectForm("name"),'required -> "required",'_class -> "validate")
+            </div>
+        </div>
+    }
+    </div>
+    <div class="row">
+    @helper.repeat(objectForm("characteristics"), min = 5) { characteristicField =>
+        @helper.inputText(characteristicField)
+    }
+    </div>
+    <div class="row">
+        <a class="btn red" href="@controllers.routes.ViewsController.index">Back</a>
+        <input type="submit" class="btn green" value="Create">
+    </div>
+}
