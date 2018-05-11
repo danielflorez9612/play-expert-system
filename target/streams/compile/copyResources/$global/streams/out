@@ -1,4 +1,4 @@
 [0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
-[0m[[0m[0mdebug[0m] [0m[0m	(/home/agile-monkey-g3/Dev/play-framework/expert-system/conf/logback.xml,/home/agile-monkey-g3/Dev/play-framework/expert-system/target/scala-2.12/classes/logback.xml)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	(/home/agile-monkey-g3/Dev/play-framework/expert-system/conf/application.conf,/home/agile-monkey-g3/Dev/play-framework/expert-system/target/scala-2.12/classes/application.conf)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	(/home/agile-monkey-g3/Dev/play-framework/expert-system/conf/routes,/home/agile-monkey-g3/Dev/play-framework/expert-system/target/scala-2.12/classes/routes)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/agile-monkey-g3/Dev/expert-monkey/conf/logback.xml,/home/agile-monkey-g3/Dev/expert-monkey/target/scala-2.12/classes/logback.xml)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/agile-monkey-g3/Dev/expert-monkey/conf/application.conf,/home/agile-monkey-g3/Dev/expert-monkey/target/scala-2.12/classes/application.conf)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/agile-monkey-g3/Dev/expert-monkey/conf/routes,/home/agile-monkey-g3/Dev/expert-monkey/target/scala-2.12/classes/routes)[0m

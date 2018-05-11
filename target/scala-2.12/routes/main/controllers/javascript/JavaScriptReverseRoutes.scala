@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
-// @SOURCE:/home/agile-monkey-g3/Dev/play-framework/expert-system/conf/routes
-// @DATE:Wed May 02 20:38:22 COT 2018
+// @SOURCE:/home/agile-monkey-g3/Dev/expert-monkey/conf/routes
+// @DATE:Fri May 11 09:34:09 COT 2018
 
 import play.api.routing.JavaScriptReverseRoute
 
